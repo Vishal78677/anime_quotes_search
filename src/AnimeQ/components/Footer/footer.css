@@ -1,0 +1,44 @@
+.footer_Icons{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    gap: 6rem;
+    align-items: center;
+}
+
+.footer_Icons .circle_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    cursor: pointer;
+    width: 35px;
+    border: 1px solid red;
+    -webkit-box-shadow: -1px -1px 17px -1px rgba(217,26,90,0.97);
+-moz-box-shadow: -1px -1px 17px -1px rgba(217,26,90,0.97);
+box-shadow: -1px -1px 17px -1px rgba(217,26,90,0.97);   
+ }
+
+.footer_Icons .circle_icon .icon_size{
+    font-size: 1.4rem;
+    color: white;
+}
+
+
+
+.footer_Icons .circle_icon a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width : 574px ) {
+
+    .footer_Icons{
+        gap: 3rem;
+    }
+    
+}
